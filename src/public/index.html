@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weather.com</title>
+</head>
+
+<body>
+    <header>
+        <div class="jumbutron text-white p-3">
+            <div class="container ">
+                <h2>
+                    <i class="fa fa-cloud"></i> Weather App</h2>
+                <div class="row">
+                    <div class="col-md-5">
+                        <form action="" class="lead">
+                            <div class="form-group">
+                                <label for="menu">
+                                    <h4> Select city :</h4>
+                                </label>
+                                <div class="input-group">
+                                    <select name="" id="menu" class="form-control">
+                                        <option value="selected" selected>Select</option>
+                                        <option value="1174872">karachi</option>
+                                        <option value="1176734">Hyderabad</option>
+                                        <option value="1164408">Sukkur</option>
+                                        <option value="1172451">Lahore</option>
+                                        <option value="1169825">Multan</option>
+                                        <option value="1179400">Faislabad</option>
+                                        <option value="1166000">Sargodha</option>
+                                        <option value="1176615">Islamabad</option>
+                                        <option value="1166993">Rawalpindi</option>
+                                        <option value="1168197">Pishawar</option>
+                                        <option value="1167528">Quetta</option>
+                                        <option value="1170880">Mardan</option>
+                                        <option value="1173491">Kohat</option>
+                                    </select>
+                                    &nbsp; &nbsp;
+                                    <button class="btn btn-primary" id="btn">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+  <div class="container mt-5">
+    <table class="table p-5" id="mainTable"></table>
+  </div>
+
+
+
+   <!-- Modals -->
+
+    <div class="modal fade" id="citySelectModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                   <p class="lead" id="mdoalContent"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+   <script src="./js/jquery.min.js"></script>
+    <script src="./js/tether.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

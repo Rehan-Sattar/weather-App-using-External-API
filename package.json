@@ -1,0 +1,20 @@
+{
+  "name": "WeatherAPP",
+  "version": "1.0.0",
+  "description": "weatherAppV1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Rehan Sattar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
